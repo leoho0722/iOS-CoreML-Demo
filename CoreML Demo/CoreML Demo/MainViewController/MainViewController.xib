@@ -50,6 +50,15 @@
                             </connections>
                         </button>
                     </subviews>
+                    <constraints>
+                        <constraint firstItem="fUF-cU-9Pd" firstAttribute="top" secondItem="b00-bc-Qdf" secondAttribute="top" id="3Vl-NG-Ip6"/>
+                        <constraint firstItem="uDT-BY-D8N" firstAttribute="leading" secondItem="b00-bc-Qdf" secondAttribute="leading" id="OSe-lk-bwg"/>
+                        <constraint firstItem="uDT-BY-D8N" firstAttribute="top" secondItem="b00-bc-Qdf" secondAttribute="top" id="cSs-as-k4Y"/>
+                        <constraint firstAttribute="bottom" secondItem="fUF-cU-9Pd" secondAttribute="bottom" id="e4q-ry-lln"/>
+                        <constraint firstItem="fUF-cU-9Pd" firstAttribute="leading" secondItem="uDT-BY-D8N" secondAttribute="trailing" constant="8" id="fGa-bO-gKy"/>
+                        <constraint firstAttribute="bottom" secondItem="uDT-BY-D8N" secondAttribute="bottom" id="fnz-aC-HAa"/>
+                        <constraint firstAttribute="trailing" secondItem="fUF-cU-9Pd" secondAttribute="trailing" id="n9U-QS-YMl"/>
+                    </constraints>
                 </stackView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
