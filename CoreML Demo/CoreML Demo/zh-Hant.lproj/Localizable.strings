@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  CoreML Demo
+
+  Created by Leo Ho on 2022/2/12.
+  
+*/
+"Unable Classify Image!\nError:" = "無法將照片進行分類！\n錯誤：%c";
+"Nothing Recognized!" = "未偵測到照片！";
+"Failed to perform classification. Error:" = "照片分類執行失敗。\n錯誤：%c";
+"Classifications Results" = "分類結果";
+"Close" = "關閉";
+"Camera" = "相機";
+"Photo" = "相簿";

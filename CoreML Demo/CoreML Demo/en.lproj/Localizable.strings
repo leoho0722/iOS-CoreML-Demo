@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  CoreML Demo
+
+  Created by Leo Ho on 2022/2/12.
+  
+*/
+"Unable Classify Image!\nError:" = "Unable Classify Image!\nError: %c";
+"Nothing Recognized!" = "Nothing Recognized!";
+"Failed to perform classification. Error:" = "Failed to perform classification.\nError: %c";
+"Classifications Results" = "Classifications Results";
+"Close" = "Close";
+"Camera" = "Camera";
+"Photo" = "Photo";

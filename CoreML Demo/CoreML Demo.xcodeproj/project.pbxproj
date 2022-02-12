@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00657C727B79A30009FBF03 /* PeopleImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D00657C627B79A30009FBF03 /* PeopleImageClassifier.mlmodel */; };
+		D00657CA27B7B3B2009FBF03 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00657C927B7B3B2009FBF03 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		D00657CE27B7C3FA009FBF03 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D00657D027B7C3FA009FBF03 /* Localizable.strings */; };
 		D0AA22C627A0F3B500FC6F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AA22C527A0F3B500FC6F06 /* AppDelegate.swift */; };
 		D0AA22C827A0F3B500FC6F06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AA22C727A0F3B500FC6F06 /* SceneDelegate.swift */; };
 		D0AA22CF27A0F3B700FC6F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0AA22CE27A0F3B700FC6F06 /* Assets.xcassets */; };
 		D0AA22D227A0F3B700FC6F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AA22D027A0F3B700FC6F06 /* LaunchScreen.storyboard */; };
 		D0AA22DC27A0F3FC00FC6F06 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AA22DA27A0F3FC00FC6F06 /* MainViewController.swift */; };
 		D0AA22DD27A0F3FC00FC6F06 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0AA22DB27A0F3FC00FC6F06 /* MainViewController.xib */; };
-		D0AA22E227A2CCF000FC6F06 /* IU-ImageClassifier.mlproj in Resources */ = {isa = PBXBuildFile; fileRef = D0AA22E127A2CCF000FC6F06 /* IU-ImageClassifier.mlproj */; };
+		D0AA22E227A2CCF000FC6F06 /* ImageClassifier.mlproj in Resources */ = {isa = PBXBuildFile; fileRef = D0AA22E127A2CCF000FC6F06 /* ImageClassifier.mlproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D00657C627B79A30009FBF03 /* PeopleImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PeopleImageClassifier.mlmodel; sourceTree = "<group>"; };
+		D00657C927B7B3B2009FBF03 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		D00657CB27B7C38A009FBF03 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		D00657CF27B7C3FA009FBF03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D00657D127B7C3FC009FBF03 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		D0AA22C227A0F3B500FC6F06 /* CoreML Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreML Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0AA22C527A0F3B500FC6F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0AA22C727A0F3B500FC6F06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +33,7 @@
 		D0AA22D327A0F3B700FC6F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0AA22DA27A0F3FC00FC6F06 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D0AA22DB27A0F3FC00FC6F06 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		D0AA22E127A2CCF000FC6F06 /* IU-ImageClassifier.mlproj */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "IU-ImageClassifier.mlproj"; sourceTree = "<group>"; };
+		D0AA22E127A2CCF000FC6F06 /* ImageClassifier.mlproj */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ImageClassifier.mlproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D00657C827B7B39F009FBF03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D00657C927B7B3B2009FBF03 /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D0AA22B927A0F3B500FC6F06 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +74,7 @@
 		D0AA22C427A0F3B500FC6F06 /* CoreML Demo */ = {
 			isa = PBXGroup;
 			children = (
+				D00657C827B7B39F009FBF03 /* Model */,
 				D0AA22D927A0F3E600FC6F06 /* MainViewController */,
 				D0AA22E027A2CCF000FC6F06 /* Create ML Model */,
 				D0AA22C527A0F3B500FC6F06 /* AppDelegate.swift */,
@@ -65,6 +82,7 @@
 				D0AA22CE27A0F3B700FC6F06 /* Assets.xcassets */,
 				D0AA22D027A0F3B700FC6F06 /* LaunchScreen.storyboard */,
 				D0AA22D327A0F3B700FC6F06 /* Info.plist */,
+				D00657D027B7C3FA009FBF03 /* Localizable.strings */,
 			);
 			path = "CoreML Demo";
 			sourceTree = "<group>";
@@ -81,7 +99,8 @@
 		D0AA22E027A2CCF000FC6F06 /* Create ML Model */ = {
 			isa = PBXGroup;
 			children = (
-				D0AA22E127A2CCF000FC6F06 /* IU-ImageClassifier.mlproj */,
+				D00657C627B79A30009FBF03 /* PeopleImageClassifier.mlmodel */,
+				D0AA22E127A2CCF000FC6F06 /* ImageClassifier.mlproj */,
 			);
 			path = "Create ML Model";
 			sourceTree = "<group>";
@@ -128,6 +147,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = D0AA22B927A0F3B500FC6F06;
 			productRefGroup = D0AA22C327A0F3B500FC6F06 /* Products */;
@@ -144,9 +164,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00657CE27B7C3FA009FBF03 /* Localizable.strings in Resources */,
 				D0AA22D227A0F3B700FC6F06 /* LaunchScreen.storyboard in Resources */,
 				D0AA22DD27A0F3FC00FC6F06 /* MainViewController.xib in Resources */,
-				D0AA22E227A2CCF000FC6F06 /* IU-ImageClassifier.mlproj in Resources */,
+				D0AA22E227A2CCF000FC6F06 /* ImageClassifier.mlproj in Resources */,
 				D0AA22CF27A0F3B700FC6F06 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,17 +181,29 @@
 			files = (
 				D0AA22DC27A0F3FC00FC6F06 /* MainViewController.swift in Sources */,
 				D0AA22C627A0F3B500FC6F06 /* AppDelegate.swift in Sources */,
+				D00657C727B79A30009FBF03 /* PeopleImageClassifier.mlmodel in Sources */,
 				D0AA22C827A0F3B500FC6F06 /* SceneDelegate.swift in Sources */,
+				D00657CA27B7B3B2009FBF03 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D00657D027B7C3FA009FBF03 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00657CF27B7C3FA009FBF03 /* en */,
+				D00657D127B7C3FC009FBF03 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		D0AA22D027A0F3B700FC6F06 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D0AA22D127A0F3B700FC6F06 /* Base */,
+				D00657CB27B7C38A009FBF03 /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,6 +215,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -243,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
